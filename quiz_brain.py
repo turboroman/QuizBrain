@@ -1,7 +1,5 @@
 from html import unescape
 
-POSSIBLE_ANSWERS = ['True', 'true', 't', 'False', 'false', 'f']
-
 
 class QuizBrain:
     def __init__(self, q_list):

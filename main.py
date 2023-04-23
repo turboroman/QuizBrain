@@ -9,9 +9,3 @@ for question in question_data:
 
 quiz = QuizBrain(question_bank)
 quiz_ui = QuizInterface(quiz)
-
-# while quiz.still_has_question():
-#     quiz.next_question()
-
-print("That's all")
-print(f"Your final score is: {quiz.score}/{quiz.question_number}")
